@@ -1,0 +1,5 @@
+avatar:used
+<a href="https://www.flaticon.com/free-icons/guy" title="guy icons">Guy icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/cool" title="cool icons">Cool icons created by justicon - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/student" title="student icons">Student icons created by Freepik - Flaticon</a>
+https://www.flaticon.com/free-icons/user-avatar?k=1646560319892

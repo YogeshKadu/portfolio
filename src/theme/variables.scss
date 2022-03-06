@@ -3,6 +3,7 @@
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-font-family:"Rubik", sans-serif;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -60,12 +61,12 @@
   --ion-color-dark-tint: #383a3e;
 
   /** medium **/
-  --ion-color-medium: #92949c;
-  --ion-color-medium-rgb: 146, 148, 156;
-  --ion-color-medium-contrast: #ffffff;
-  --ion-color-medium-contrast-rgb: 255, 255, 255;
-  --ion-color-medium-shade: #808289;
-  --ion-color-medium-tint: #9d9fa6;
+	--ion-color-medium: #ffffff;
+	--ion-color-medium-rgb: 255,255,255;
+	--ion-color-medium-contrast: #000000;
+	--ion-color-medium-contrast-rgb: 0,0,0;
+	--ion-color-medium-shade: #e0e0e0;
+	--ion-color-medium-tint: #ffffff;
 
   /** light **/
   --ion-color-light: #f4f5f8;
@@ -74,6 +75,14 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** theme **/
+  --ion-color-theme: #f9f9ff;
+	--ion-color-theme-rgb: 249,249,255;
+	--ion-color-theme-contrast: #353353;
+	--ion-color-theme-contrast-rgb: 53, 51, 83;
+	--ion-color-theme-shade: #dbdbe0;
+	--ion-color-theme-tint: #fafaff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -132,12 +141,12 @@
     --ion-color-dark-shade: #d7d8da;
     --ion-color-dark-tint: #f5f6f9;
 
-    --ion-color-medium: #989aa2;
-    --ion-color-medium-rgb: 152,154,162;
-    --ion-color-medium-contrast: #000000;
-    --ion-color-medium-contrast-rgb: 0,0,0;
-    --ion-color-medium-shade: #86888f;
-    --ion-color-medium-tint: #a2a4ab;
+    --ion-color-medium: #302f4e;
+    --ion-color-medium-rgb: 48,47,78;
+    --ion-color-medium-contrast: #ffffff;
+    --ion-color-medium-contrast-rgb: 255,255,255;
+    --ion-color-medium-shade: #2a2945;
+    --ion-color-medium-tint: #454460;
 
     --ion-color-light: #222428;
     --ion-color-light-rgb: 34,36,40;
@@ -145,6 +154,14 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    /** theme **/
+    --ion-color-theme: #353353;
+    --ion-color-theme-rgb: 53,51,83;
+    --ion-color-theme-contrast: #f9f9ff;
+    --ion-color-theme-contrast-rgb: 249, 249, 255;
+    --ion-color-theme-shade: #2f2d49;
+    --ion-color-theme-tint: #494764;
   }
 
   /*

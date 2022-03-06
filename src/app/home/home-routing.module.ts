@@ -4,9 +4,20 @@ import { HomePage } from './home.page';
 
 const routes: Routes = [
   {
+    path:'',
+    redirectTo: 'slider',
+    pathMatch:'full'
+  },
+  {
     path: '',
     component: HomePage,
-  }
+    children:[
+      {
+        path: 'slider',
+        loadChildren: () => import('./slider/slider.module').then( m => m.SliderPageModule)
+      }
+    ]
+  },
 ];
 
 @NgModule({

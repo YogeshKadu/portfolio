@@ -1,0 +1,174 @@
+<ion-content [fullscreen]="true">
+  <ion-fab vertical="top" horizontal="start">
+    <ion-menu-toggle>
+      <ion-button>
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-menu-toggle>
+  </ion-fab>
+  <swiper class="slider"
+    [direction]="'vertical'"
+    [rewind]="true"
+    >
+    <ng-template swiperSlide>
+      <div id="home">
+        <ion-avatar>
+          <img src="assets/icon/boy.png" alt="www.flaticon.com" />
+        </ion-avatar>
+        <h3>Yogesh Kadu</h3>
+        <p>I'm a <span>Front-End Developer</span></p>
+        <ul class="ion-no-padding">
+          <li>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <ion-button shape="round" [hidden]="false">
+          Get In Touch
+        </ion-button>
+      </div>
+      <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+        <ion-fab-button color="transparent">
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div id="experience">
+        <h1 class="ion-text-center">Experience</h1>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+              <small class="ion-margin-horizontal">Education</small>
+              <ion-card color="medium">
+                <ion-card-content>
+                  <div class="vr"><span></span></div>
+                  <div class="content">
+                    <small>2018 - 2021</small>
+                    <h2>B.Tech (Computer Science and Engg.)</h2>
+                    <p class="ion-hide-md-down">Completed 3 years of Engineering in <ion-text color="warning">Chh.Shahu College of Engineering</ion-text>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum?</p>
+                  </div>
+                </ion-card-content>
+                <ion-card-content>
+                  <div class="vr"><span></span></div>
+                  <div class="content">
+                    <small>2015 - 2018</small>
+                    <h2>Diploma (Information Technology)</h2>
+                    <p class="ion-hide-md-down">Completed 3 years of Polytechnique in <ion-text color="warning">Institute of Petrochemical Engineering</ion-text>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis assumenda nihil repellat eius deleniti, in amet odio magni fugit.</p>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+            <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+              <small class="ion-margin-horizontal">Experience</small>
+              <ion-card color="medium">
+                <ion-card-content>
+                  <div class="vr"><span></span></div>
+                  <div class="content">
+                    <small>2021 (6 Month)</small>
+                    <h2>Internship (Software Developer)</h2>
+                    <p class="ion-hide-md-down">Completed 6 Months of Internship in <a href="http://ekatta.in/" target="_blank">Ekatta Innovatiors</a>. Worked on various Front-End Framewors and got industry experiance with the help of my seniors.
+                      Get introdiced with Hybride and native application development.
+                    </p>
+                  </div>
+                </ion-card-content>
+                <ion-card-content>
+                  <div class="vr"><span></span></div>
+                  <div class="content">
+                    <small>2020 (1 Month)</small>
+                    <h2>Internship (Angular Developer)</h2>
+                    <p class="ion-hide-md-down">Completed 1 Months of Internship in <a href="http://ekatta.in/" target="_blank">Modi Innovations</a>. Got hands on experience on angular framework.</p>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div id="about">
+        <h1 class="ion-text-center">About Me</h1>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+              <ion-card color="medium" class="ion-margin-top">
+                <ion-card-header>
+                  <ion-avatar>
+                    <img src="assets/icon/boy.png" alt="www.flaticon.com" />
+                  </ion-avatar>
+                </ion-card-header>
+                <ion-card-content>
+                  I'm Yogesh Vasant Kadu, Software Developer from India. Have rich experiance in <b>Web Development</b>.
+                  I am interested in Front-End Web Development, Native application Development and Game Development.
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+            <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+              <ion-row  class="languages ion-margin-top">
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-ionic"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-html5"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-angular"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-react"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-javascript"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+                <ion-col size="4">
+                  <!-- <ion-card color="medium">
+                    <ion-card-content> -->
+                      <ion-icon name="logo-npm"></ion-icon>
+                    <!-- </ion-card-content>
+                  </ion-card> -->
+                </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ng-template>
+  </swiper>
+</ion-content>
